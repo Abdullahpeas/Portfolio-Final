@@ -1,24 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Home/Menu';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
+import Portfolio from './components/Portfolio/Portfolio';
+import FirstDetail from './components/FirstDetail/FirstDetail';
+import SecondDetail from './components/SecondDetail/SecondDetail';
+import ThirdDetail from './components/ThirdDetail/ThirdDetail';
+import Blog from './components/Blog/Blog';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Menu></Menu>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
+          </Route>
+          <Route path="/home">
+            <Portfolio></Portfolio>
+          </Route>
+          <Route path="/firstDetail">
+            <FirstDetail></FirstDetail>
+          </Route>
+          <Route path="/secondDetail">
+            <SecondDetail></SecondDetail>
+          </Route>
+          <Route path="/thirdDetail">
+            <ThirdDetail></ThirdDetail>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
+          </Route>
+        </Switch>
+      </Router >
+    </div >
   );
 }
 

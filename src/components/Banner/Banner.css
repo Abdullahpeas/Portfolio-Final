@@ -1,0 +1,27 @@
+.section{
+    background: linear-gradient(#e66465, #9198e5);
+    margin-right: 0px;
+    height: 550px;
+}
+.type-style{
+    text-align: left;
+    margin-left: -30px;
+
+}
+
+.type{
+    padding-top: 150px;
+    text-decoration: none;
+    color: black;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: left;
+}
+.card-style{
+    height: 330px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: lightgray;
+
+}
