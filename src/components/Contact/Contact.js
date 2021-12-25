@@ -18,7 +18,7 @@ const Contact = () => {
         e.target.reset()
     }
     return (
-        <div data-aos="zoom-in-up" className="container">
+        <div data-aos="zoom-in-up" className="container" >
             <h2 className=" m-5">Contact Me</h2>
 
             <form onSubmit={sendEmail}>

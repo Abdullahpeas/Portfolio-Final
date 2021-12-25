@@ -8,7 +8,7 @@ const About = () => {
     AOS.init({ duration: 2000 })
     return (
 
-        <div data-aos="flip-right" className="container  overflow-hidden ">
+        <div data-aos="flip-right" className="container  overflow-hidden " id='about'>
 
 
             <h2 className="m-5 fw-bold text-center overflow-hidden">About Me</h2>

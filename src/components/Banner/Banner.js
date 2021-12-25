@@ -42,7 +42,7 @@ const Banner = () => {
                             modes: {
                                 bubble: {
                                     distance: 400,
-                                    duration: 2,
+                                    duration: 1,
                                     opacity: 0.8,
                                     size: 40,
                                 },
@@ -74,7 +74,7 @@ const Banner = () => {
                                 enable: true,
                                 outMode: "bounce",
                                 random: false,
-                                speed: 2,
+                                speed: 3,
                                 straight: false,
                             },
                             number: {
@@ -101,11 +101,15 @@ const Banner = () => {
                 <div className="row overflow-hidden">
 
                     <div className="col-md-6 overflow-hidden">
+
                         <div className="card card-style mx-auto">
+
                             <img src={image} alt="" />
+
                         </div>
                     </div>
                     <div className="col-md-6 type">
+
                         <div >
                             <Typical
                                 steps={['Hey,', 2000, 'Welcome to Developer World', 2000, 'Iam Web Developer', 2000, 'React Js Developer', 1000]}
