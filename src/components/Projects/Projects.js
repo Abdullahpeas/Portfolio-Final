@@ -1,7 +1,7 @@
 import React from 'react';
-import images1 from '../../images/banner/p1.PNG';
-import images2 from '../../images/banner/p2.PNG';
-import images3 from '../../images/banner/p3.PNG';
+import images1 from '../../images/banner/imac-screen-mockup.png';
+import images2 from '../../images/banner/clean-minimalistic-notebook-mockup.png';
+import images3 from '../../images/banner/ipad-screen-mockup-with-keyboard.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
