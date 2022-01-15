@@ -19,7 +19,7 @@ const Contact = () => {
     }
     return (
         <div data-aos="zoom-in-up" className="container" >
-            <h2 className=" m-5">Contact Me</h2>
+            <h2 className=" m-5 text-white">Contact Me</h2>
 
             <form onSubmit={sendEmail}>
                 <div className="row  mx-auto">

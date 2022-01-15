@@ -3,6 +3,10 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
+
+
+
+
     return (
         <div>
             <Navbar variant="light" bg="navbar navbar-dark bg-dark" collapseOnSelect expand="lg" sticky="top">
@@ -26,7 +30,6 @@ const Menu = () => {
 
                     </Navbar.Collapse>
                 </Container>
-
             </Navbar>
         </div>
     );

@@ -13,7 +13,7 @@ const Projects = () => {
 
     return (
         <div data-aos="zoom-in-down" className='container mb-3  overflow-hidden'>
-            <h2 className="m-5 fw-bold  overflow-hidden ">Projects</h2>
+            <h2 className="m-5 fw-bold text-white  overflow-hidden ">Projects</h2>
             <div className="row row-cols-1 row-cols-md-3 g-4 overflow-hidden">
                 <div className="col overflow-hidden">
                     <div className="card h-100 overflow-hidden">
